@@ -1,0 +1,161 @@
+
+#hm_psr_report_fields div {
+	display: block;
+	margin-bottom: 5px;
+	white-space: nowrap;
+	width: 300px;
+	padding: 5px 10px;
+	border: 1px solid #000;
+	background-color: #eee;
+}
+#hm_psr_report_fields button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: transparent;
+	display: inline;
+	cursor: pointer;
+}
+#hm_psr_report_fields > div input[type="text"] {
+	vertical-align: baseline;
+}
+#hm_psr_report_fields .hm_psr_field_name {
+	width: 220px;
+}
+#hm-psr-product-cats {
+	display: block;
+	padding-left: 25px;
+	width: 500px;
+	max-height: 200px;
+	overflow: auto;
+	margin-top: 5px;
+}
+#hm-psr-product-cats li {
+	margin-bottom: 0;
+}
+#hm-psr-product-cats  label {
+	display: block;
+	margin-bottom: 5px;
+}
+#hm-psr-product-cats .children {
+	padding-left: 25px;
+}
+#hm_psr_tab_panels {
+	background-color: #fff;
+	padding: 10px 30px;
+	border: 1px solid #ccc;
+	border-top: 0;
+}
+#hm_psr_tabs .nav-tab-active {
+	background-color: #fff;
+	border-bottom-color: #fff;
+}
+.hm_psr_total_field {
+	display: block;
+	float: right;
+	text-align: center;
+	border-left: 1px dotted #ccc;
+	padding-left: 10px;
+}
+.hm_psr_total_field span {
+	display: block;
+	text-transform: uppercase;
+	font-size: 10px;
+	line-height: 10px;
+}
+.hm_psr_total_field input {
+	margin: 0;
+}
+.hm_psr_total_field.no-total {
+	display: none !important;
+}
+#hm_psr_tab_presets_panel {
+	width: 100%;
+	font-size: 20px;
+}
+#hm_psr_tab_presets_panel td {
+	padding: 20px;
+	padding-left: 0;
+	border-bottom: 1px solid #ccc;
+}
+#hm_psr_tab_presets_panel tr:last-child td {
+	border: 0;
+}
+#hm_psr_tab_presets_panel td:last-child {
+	width: 150px;
+	text-align: right;
+}
+#hm_psr_tab_presets_panel .dashicons {
+	font-size: 30px;
+	width: auto;
+	height: auto;
+	margin-left: 10px;
+}
+#hm_psr-current-preset {
+	margin: 15px 0;
+}
+#hm_psr_tab_panels input[type="text"] {
+	vertical-align: bottom;
+}
+.hm-psr-date-dynamic-toggle {
+	display: block;
+	font-size: 0.8em;
+}
+.hm-psr-date-dynamic-field:not(.hidden) {
+	display: block;
+}
+#hm_psr_form .description {
+	clear: both;
+}
+#hm_psr_form input[type="text"] {
+	vertical-align: middle;
+}
+.hm-psr-field-300 {
+	width: 300px;
+}
+#hm_psr_field_report_css {
+	display: block;
+	font-family: monospace;
+	width: 300px;
+	height: 400px;
+}
+.hm_psr_format_options {
+	margin-top: 10px;
+}
+#hm_psr_format_options_csv label:not(:last-child) {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+#hm_psr_format_options_csv input {
+	width: 40px;
+}
+#hm_psr_about {
+	max-width: 500px;
+	text-align: center;
+}
+#hm_psr_about > div {
+	font-size: 1.2em;
+}
+#hm_psr_about > div a {
+	color: #fff;
+}
+
+/* new 
+.woocommerce .nav-tab-wrapper + .subsubsub :nth-child(3) {
+  display:none !important;
+} 
+.woocommerce .nav-tab-wrapper + .subsubsub :nth-child(4) {
+  display:none !important;
+} 
+
+
+.woocommerce .nav-tab-wrapper :nth-child(2) {
+  display:none !important;
+} 
+.woocommerce .nav-tab-wrapper :nth-child(3) {
+  display:none !important;
+} 
+.woocommerce .stats_range ul .custom {
+  display:none !important;
+} 
+*/
